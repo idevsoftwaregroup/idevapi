@@ -1,0 +1,193 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\projects\\i-dev\\Sample .Net Core Api\\i-dev\\idev.Infrastructure\\idev.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "E:\\projects\\i-dev\\Sample .Net Core Api\\i-dev\\idev.Domain\\idev.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\i-dev\\Sample .Net Core Api\\i-dev\\idev.Domain\\idev.Domain.csproj",
+        "projectName": "idev.Domain",
+        "projectPath": "E:\\projects\\i-dev\\Sample .Net Core Api\\i-dev\\idev.Domain\\idev.Domain.csproj",
+        "packagesPath": "C:\\Users\\a.ataei\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\i-dev\\Sample .Net Core Api\\i-dev\\idev.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\a.ataei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\projects\\i-dev\\Sample .Net Core Api\\i-dev\\idev.Framework\\idev.Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\i-dev\\Sample .Net Core Api\\i-dev\\idev.Framework\\idev.Framework.csproj",
+        "projectName": "idev.Framework",
+        "projectPath": "E:\\projects\\i-dev\\Sample .Net Core Api\\i-dev\\idev.Framework\\idev.Framework.csproj",
+        "packagesPath": "C:\\Users\\a.ataei\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\i-dev\\Sample .Net Core Api\\i-dev\\idev.Framework\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\a.ataei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\projects\\i-dev\\Sample .Net Core Api\\i-dev\\idev.Infrastructure\\idev.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\i-dev\\Sample .Net Core Api\\i-dev\\idev.Infrastructure\\idev.Infrastructure.csproj",
+        "projectName": "idev.Infrastructure",
+        "projectPath": "E:\\projects\\i-dev\\Sample .Net Core Api\\i-dev\\idev.Infrastructure\\idev.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\a.ataei\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\i-dev\\Sample .Net Core Api\\i-dev\\idev.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\a.ataei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\projects\\i-dev\\Sample .Net Core Api\\i-dev\\idev.Domain\\idev.Domain.csproj": {
+                "projectPath": "E:\\projects\\i-dev\\Sample .Net Core Api\\i-dev\\idev.Domain\\idev.Domain.csproj"
+              },
+              "E:\\projects\\i-dev\\Sample .Net Core Api\\i-dev\\idev.Framework\\idev.Framework.csproj": {
+                "projectPath": "E:\\projects\\i-dev\\Sample .Net Core Api\\i-dev\\idev.Framework\\idev.Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
